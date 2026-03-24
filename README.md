@@ -2,17 +2,17 @@
 
 ## Overview
 
-This project is a simple example of setting up a CI pipeline using GitHub Actions for a Python application.
+This project is a basic example of setting up a CI pipeline for a Python application using GitHub Actions.
 
-The goal was to understand how automated testing works in a real workflow, where tests run every time code is pushed or updated.
+The idea is to run tests automatically whenever changes are pushed, so it’s easier to catch issues early instead of testing everything manually.
 
 ---
 
 ## What it does
 
-* Runs tests automatically using pytest
-* Triggers on push and pull requests
-* Helps make sure the code is working correctly
+* Runs tests using pytest
+* Triggers automatically on push and pull requests
+* Helps check that the code is working as expected
 
 ---
 
@@ -39,7 +39,7 @@ ci-cd-python-project/
 
 ---
 
-## Running it locally
+## Run locally
 
 ```bash
 git clone https://github.com/bahjo-awad/ci-cd-python-project.git
@@ -52,17 +52,17 @@ pytest
 
 ## What I learned
 
-* How CI pipelines work in practice
-* How to use GitHub Actions to automate testing
-* Why automated testing is important in development
+* How to set up a simple CI pipeline
+* How GitHub Actions runs workflows when code changes
+* Why automated testing is useful
 
 ---
 
 ## Next steps
 
-* Try adding Docker
-* Improve test coverage
-* Learn how to deploy applications
+* Add more tests
+* Try Docker
+* Look into deployment
 
 ---
 
